@@ -24,12 +24,12 @@ export function MissingBlockWarning( { attributes, convertToHTML } ) {
 			</Button>
 		);
 		messageHTML = sprintf(
-			__( 'Your site doesn\'t include support for the <code>%s</code> block. You can leave the block intact, convert its content to a Custom HTML block, or remove it entirely.' ),
+			__( 'Your site doesn\'t include support for the <code>%s</code> block. You can leave this block intact, convert its content to a Custom HTML block, or remove it entirely.' ),
 			originalName
 		);
 	} else {
 		messageHTML = sprintf(
-			__( 'Your site doesn\'t include support for the <code>%s</code> block. You can leave the block intact or remove it entirely.' ),
+			__( 'Your site doesn\'t include support for the <code>%s</code> block. You can leave this block intact or remove it entirely.' ),
 			originalName
 		);
 	}
